@@ -1,31 +1,11 @@
-=============== Apr 6, 2021 (PDT) ===============
-16:35:10.545144 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:35:10.566005 db@open opening
-16:35:10.569025 version@stat F·[] S·0B[] Sc·[]
-16:35:10.590112 db@janitor F·2 G·0
-16:35:10.590224 db@open done T·24.180975ms
-=============== Apr 6, 2021 (PDT) ===============
-16:37:16.573958 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:37:16.575397 version@stat F·[] S·0B[] Sc·[]
-16:37:16.575443 db@open opening
-16:37:16.575569 journal@recovery F·1
-16:37:16.575700 journal@recovery recovering @1
-16:37:16.585041 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
-16:37:16.585544 version@stat F·[1] S·176B[176B] Sc·[0.25]
-16:37:16.628509 db@janitor F·3 G·0
-16:37:16.628542 db@open done T·53.061618ms
-=============== Apr 6, 2021 (PDT) ===============
-18:20:17.178815 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-18:20:17.179538 version@stat F·[1] S·176B[176B] Sc·[0.25]
-18:20:17.179582 db@open opening
-18:20:17.179672 journal@recovery F·1
-18:20:17.180094 journal@recovery recovering @3
-18:20:17.242146 memdb@flush created L0@5 N·28056 S·577KiB "loc..seq,v25":"n:\xff..ong,v20203"
-18:20:17.242765 version@stat F·[2] S·578KiB[578KiB] Sc·[0.50]
-18:20:17.293672 db@janitor F·4 G·0
-18:20:17.293727 db@open done T·114.12752ms
-18:20:17.312413 table@compaction L0·2 -> L1·0 S·578KiB Q·28061
-18:20:17.332381 table@build created L1@8 N·9101 S·335KiB "loc..seq,v25":"version,v1"
-18:20:17.332593 version@stat F·[0 1] S·335KiB[0B 335KiB] Sc·[0.00 0.00]
-18:20:17.344141 table@compaction committed F-1 S-242KiB Ke·0 D·18957 T·31.657028ms
-18:20:17.347517 table@remove removed @2
+=============== Apr 12, 2021 (PDT) ===============
+17:51:34.875375 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:51:34.894784 db@open opening
+17:51:34.896599 version@stat F·[] S·0B[] Sc·[]
+17:51:34.905975 db@janitor F·2 G·0
+17:51:34.906114 db@open done T·11.250632ms
+18:48:04.998232 memdb@flush N·39593 S·3MiB
+18:48:05.032374 memdb@flush created L0@3 N·39593 S·784KiB "loc..seq,v23":"version,v1"
+18:48:05.038250 version@stat F·[1] S·784KiB[784KiB] Sc·[0.25]
+18:48:05.048265 memdb@flush committed F·1 T·49.714683ms
+18:48:05.065234 journal@remove removed @1
