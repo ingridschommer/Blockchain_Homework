@@ -23,3 +23,5 @@ Once those initialized successfully, I ran the following commands in order to ru
 My private PoA block was now running successfully. 
 
 Next, I opened MyCrypto in order to send ETH from node1 to node2. 
+
+![Successful Transaction](https://github.com/ingridschommer/Blockchain_Homework/blob/main/Screenshots/Successful%20Transaction.png)
