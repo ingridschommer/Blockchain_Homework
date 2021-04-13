@@ -8,5 +8,7 @@ I accessed the terminal in my geth folder and ran the following commands:
 
 Once these nodes were set up, I created a genesis block using puppeth.
 
-![Configure new Genesis](Configure new Genesis.png)
+![Configure new Genesis](https://github.com/ingridschommer/Blockchain_Homework/blob/main/Screenshots/Configure%20new%20Genesis.png)
+
+
 
